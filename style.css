@@ -1,0 +1,47 @@
+body {
+    background-color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    color: white; /* Textfarbe für Sichtbarkeit */
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse; /* Verhindert äußere Grenzen */
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    border: 5px solid white; /* Weiße Trennlinien mit 5px Dicke */
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Rand entfernen für die äußeren td-Elemente */
+td:first-child,
+td:last-child {
+    border-left: none;
+    border-right: none;
+}
+
+tr:first-child td,
+tr:last-child td {
+    border-top: none;
+    border-bottom: none;
+}
+
+td:hover {
+    background-color: #444; /* Etwas dunklerer Hintergrund beim Hover */
+}
