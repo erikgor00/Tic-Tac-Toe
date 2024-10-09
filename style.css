@@ -10,10 +10,11 @@ h1 {
 }
 
 #content {
-    margin-top: 300px;
+    margin-top: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 table {
@@ -21,8 +22,8 @@ table {
 }
 
 td {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     border: 5px solid white; /* Weiße Trennlinien mit 5px Dicke */
     text-align: center;
     font-size: 24px;
@@ -44,4 +45,29 @@ tr:last-child td {
 
 td:hover {
     background-color: #444; /* Etwas dunklerer Hintergrund beim Hover */
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff; /* Buttonfarbe */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Dunklere Farbe beim Hover */
 }
